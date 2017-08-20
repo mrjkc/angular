@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- to start browser sync: browser-sync start --server --directory --files "**/*" -->
     <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js">
+    </script>
     <title>Hello Angular</title>
   </head>
-  <body>
-    <h1>Hello Angular 1 let create some apps!</h1>
+  <body ng-app='AngularApp'>
+    <h1>Hello AngularJs lets create some apps!</h1>
+    <div ng-controller="AngularController">
+
+    </div>
   </body>
 </html>
